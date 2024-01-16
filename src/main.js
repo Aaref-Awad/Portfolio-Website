@@ -12,6 +12,8 @@ import '../styles/utils.css';
 
 import mobileNav from './utils/mobile-nav';
 import darkMode from './utils/dark-mode';
+import aboutScroll from './utils/about-scroll';
 
 mobileNav();
 darkMode();
+aboutScroll();
