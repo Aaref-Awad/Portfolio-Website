@@ -63,6 +63,15 @@
     display: none;
 }
 
+.work__project-description-list {
+    text-align: left;
+}
+
+.work__project-description-list li{
+    margin-bottom: 1rem;
+    color: var(--clr-slate400);
+}
+
 /* xs */
 @media (min-width: 475px) {
     .work__title {
@@ -103,8 +112,7 @@
         grid-template-areas: 
         'image1 content1'
         'content2 image2'
-        'image3 content3'
-        'content4 image4';
+        'image4 content4';
         place-items: center;
     }
 
